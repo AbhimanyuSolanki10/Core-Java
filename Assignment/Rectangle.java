@@ -7,7 +7,7 @@ class Rectangle {
             this.width=width;
         }
         public void  area(){
-            System.out.println("The area is :-" + length*width);
+            System.out.println("The area is :- " + length*width);
         }
         public void   perimeter(){
             System.out.println("The perimeter is :-  " + 2*(length+width));
