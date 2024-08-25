@@ -1,0 +1,10 @@
+package constructor;
+
+public class EmployDriver {
+public static void main(String[] args) {
+	System.out.println("This is main method");
+	Employ e1= new Employ("Mohan",121,524163.256);
+	e1.getDetails();
+	
+}
+}
