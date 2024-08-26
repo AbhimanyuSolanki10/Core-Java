@@ -1,10 +1,14 @@
 import java.util.Scanner;
 
-class Program5 {
+class Program4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the character");
         char ch = sc.next().charAt(0);
-        System.out.println(ch>='a' && ch<='z');
+        if(ch>='a' && ch<='z' && ch>='A' && ch<='Z'){
+        System.out.println("Alphabat");
+        }else{
+        System.out.println("Not a Alphabat");
+        }
     }
 }
