@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-class Prime_number {
+class Prime_number3 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -17,7 +17,7 @@ class Prime_number {
         if(n<2) 
             return false;
         int i = 2;
-        while (i * i <= n) {
+        while (i *i <= n) {
             // System.out.println("Loop Execution is: " + (i-1));
             if (n % i == 0) {
                 return false;
