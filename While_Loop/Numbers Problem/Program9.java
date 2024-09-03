@@ -5,33 +5,26 @@ class Program9 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Number :- ");
         int a = sc.nextInt();
-        System.out.println("The differnce of Biggest and smallest digit is " + (biggest(a)-smallest(a)));
+        System.out.println("Difference of big and small is : " + getDifference(a) );
     }
 
-    public static int biggest(int a){
-         int maxdigit = -1;
+    public static int getDifference(int a){
+         int big =0;
+         int small =9;
         while(a>0){
-            int digit = a%10;
+            int rem = a%10;
            
-            if(digit>=maxdigit){
-                maxdigit=digit;
+            if(rem>big){
+                big =rem;
+             } 
+            if(rem<small){
+                small =rem;
              } 
             
             a= a/10;
         }
-        return  maxdigit ;
+        return  big-small ;
     }
-    public static int smallest(int a){
-         int mindigit = 10000000;
-        while(a>0){
-            int digit = a%10;
-           
-            if(digit<=mindigit){
-                mindigit=digit;
-             } 
-            
-            a= a/10;
-        }
-        return  mindigit ;
-    }
+    
+    
 }
