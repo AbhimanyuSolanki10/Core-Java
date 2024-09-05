@@ -14,13 +14,13 @@ class Program4 {
     }
 
     public static boolean  isPalindrome(String s1){
+        s1=s1.toLowerCase();
         int i=0;
-        int n=s1.length()-1;
-        while (i<n/2) { 
-            if(s1.charAt(i)!=s1.charAt(n)){
+        int mid=s1.length()/2;
+        while (i<mid) { 
+            if(!(s1.charAt(i) == s1.charAt(s1.length()-1-i))){
                 return false;
             }
-            n--;
             i++;
         }return  true;
     }
