@@ -15,8 +15,8 @@ class IsPalindrome {
 
 
     public static boolean isPalindrome(String s1){
-        int i= 0;
         String rev=""; 
+        int i= 0;
         while (i<s1.length()) { 
             rev = s1.charAt(i) + rev;
             i++;
