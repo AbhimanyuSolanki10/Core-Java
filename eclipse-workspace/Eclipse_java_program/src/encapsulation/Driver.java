@@ -7,8 +7,10 @@ public class Driver {
 		Employ e1 = new Employ();
 		//e1.name="Monday";
 		//System.out.println("Name is: " + e1.name);
-		System.out.println("Name is " + e1.getName());
 		e1.setName("Mohan");
+		System.out.println("==================================");
+		System.out.println("Name is " + e1.getName());
+		
 	}
 
 }

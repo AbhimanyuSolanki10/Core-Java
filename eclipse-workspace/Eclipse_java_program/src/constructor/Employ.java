@@ -1,5 +1,4 @@
 package constructor;
-
 public class Employ {
 String name;
 int id;

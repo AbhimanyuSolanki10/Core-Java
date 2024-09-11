@@ -10,7 +10,7 @@ public class Outer {
 		class Inner 
 		{
 			int y =65;
-			static int z = 522;
+			int z = 522;
 			public void demo() {
 				System.out.println("demo mehtod of inner class");
 			}
