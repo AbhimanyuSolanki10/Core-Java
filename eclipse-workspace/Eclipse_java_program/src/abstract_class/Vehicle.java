@@ -13,7 +13,14 @@ public abstract class Vehicle {
 		this.name=name;
 		this.price=price;
 	}
+	static {
+		System.out.println("This is a static-block");
+	}
+	{
+		System.out.println("This is non-static block");
+	}
 	
+	//abstract method
 	public abstract void start() ;
 	public abstract void drive() ;
 	

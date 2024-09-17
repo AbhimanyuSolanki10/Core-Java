@@ -1,26 +1,21 @@
 import java.util.Scanner;
 
-class Vopposite {
+class Cross {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter n:");
-        int n=sc.nextInt();
+        System.out.println("Enter n");
+        int n= sc.nextInt();
         printPattern(n);
     }
     public static void printPattern(int n){
-        int sst=n;
-        int es=n;
         for(int i=1;i<=n;i++){
-            for(int j=1;j<=es;j++){
-                if(j==sst || j==es )
+            for(int j=1;j<=n;j++){
+                if(i==j||(i+j)==n+1)
                     System.out.print("* ");
                 else
-                System.out.print("  ");
+                    System.out.print("  ");
             }
-        sst--;
-        es++;
         System.out.println();
         }
-
     }
 }

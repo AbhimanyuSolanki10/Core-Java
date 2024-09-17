@@ -2,15 +2,6 @@ package abstract_class;
 
 public  abstract class Car extends Vehicle{
 	int hp;
-	public abstract void openGate() ;
-	public abstract void musicPlayer() ;
-	
-	public void light() {
-		System.out.println("Swtich on the light");
-	}
-	public void horn() {
-		System.out.println("on the horn");
-	}
 	Car(){
 		
 	}
@@ -18,5 +9,14 @@ public  abstract class Car extends Vehicle{
 		super(name,price);
 		this.hp=hp;
 	}
+	
+	public abstract void openGate() ;
+	
+	public void PlayMusic() {
+		System.out.println("Play music in Car");
+	}
+	
+
+	
 	
 }
