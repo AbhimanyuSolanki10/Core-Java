@@ -16,7 +16,4 @@ public  abstract class Car extends Vehicle{
 		System.out.println("Play music in Car");
 	}
 	
-
-	
-	
 }

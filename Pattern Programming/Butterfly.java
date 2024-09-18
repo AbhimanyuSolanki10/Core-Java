@@ -9,15 +9,22 @@ class Butterfly {
     }
 
     public static void printPattern(int n){
-        int mid = n/2+1;
+        int sst=1 ; int est=n; 
         for(int i=1;i<=n;i++){
+
             for(int j=1;j<=n;j++){
-                if (i==mid || j==1 || j==n || i<mid && i==j || i>mid && i==j || i>mid && (i+j)==n+1 || i<mid && (i+j)==n+1) {
+                if(j<=sst || j>=est){
                     System.out.print("* ");
                 }else{
                     System.out.print("  ");
                 }
             }
+        if(i<n/2+1){
+            sst++; est--;
+        }else{
+            sst--; est++;
+        }
+           
         System.out.println();
         }
     }

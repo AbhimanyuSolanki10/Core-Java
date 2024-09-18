@@ -2,6 +2,8 @@ package inheritance;
 
 public class Vehicle {
 	String name;
+	
+	
 	Vehicle(){
 //		super() --- Implicit constructor call
 		System.out.println("Vehicle no-argument constructor");
