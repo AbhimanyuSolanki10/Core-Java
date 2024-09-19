@@ -11,10 +11,10 @@ class NumberDiamond {
         int star=1; int space=n/2;
         for(int i=1;i<=n;i++){
             for(int j=1;j<=space;j++){
-                System.out.print("  ");
+                System.out.print("     ");
             }
             for(int j=1;j<=star;j++){
-                System.out.print(j +" ");
+                System.out.printf("%05d",j);
             }
         if(i<n/2+1){
             star+=2;
