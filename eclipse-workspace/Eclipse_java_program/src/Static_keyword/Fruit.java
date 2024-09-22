@@ -1,6 +1,6 @@
 package Static_keyword;
 
-public class Fruit {
+public class  Fruit {
 
 	{
 		System.out.println("This is non-static block-1");
@@ -23,5 +23,7 @@ public class Fruit {
 	{
 		System.out.println("This is non-static block-2");
 	}
+	
+	
 
 }

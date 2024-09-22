@@ -20,7 +20,7 @@ Employ(String name ,int id , double salary){
 	
 }
 
-public void getDetails() {
+public  void getDetails() {
 System.out.println("name is : " + this.name);
 System.out.println("Id is : " + this.id);
 System.out.println("Salary is : " + this.salary);
