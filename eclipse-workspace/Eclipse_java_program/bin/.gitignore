@@ -1,11 +1,11 @@
-/final_keyword/
+/object_class/
+/inheritance/
+/interface_part/
 /method_overloading/
 /method_overriding/
 /non_static/
+/singleton/
 /tyre/
 /upcasting_downcasting/
-/file_handling/
-/singleton/
-/immutable_class/
-/Wrapper_class/
 /wrapper_class/
+/serialization_deserialization/
