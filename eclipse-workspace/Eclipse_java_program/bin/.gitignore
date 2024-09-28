@@ -1,11 +1,3 @@
 /object_class/
-/inheritance/
-/interface_part/
-/method_overloading/
-/method_overriding/
-/non_static/
-/singleton/
-/tyre/
-/upcasting_downcasting/
-/wrapper_class/
-/serialization_deserialization/
+/multithreading/
+/exception_handling/

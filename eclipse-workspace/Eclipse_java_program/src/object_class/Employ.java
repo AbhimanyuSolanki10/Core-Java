@@ -5,6 +5,10 @@ public class Employ {
 	int id;
 	double salary;
 	
+	Employ(){
+		
+	}
+	
 	Employ(String name ,int id ,double salary) {
 			this.name=name;
 			this.id=id;
@@ -24,5 +28,12 @@ public class Employ {
 		  return this.name.equals(e.name) &&
 				  this.id==e.id &&
 				  this.salary==e.salary;
+	  }
+	  @Override
+	  public void finalize() {
+		  System.out.println("Deatch system connection");
+		  System.out.println("Deatch database connection");
+		  System.out.println("Deatch newtwork connection");
+		  System.out.println("============================");
 	  }
 }

@@ -20,8 +20,12 @@ public class Driver {
 		System.out.println(e1==e2);
 		System.out.println(e1==e3);
 		System.out.println("=====================================");
-		System.out.println(e1.equals(e2));
+ 		System.out.println(e1.equals(e2));
 		System.out.println(e3.equals(e3));
+		System.out.println("=================finalize()==================");
+		e1=null;
+		System.gc();
+		
 		
 		
 		
