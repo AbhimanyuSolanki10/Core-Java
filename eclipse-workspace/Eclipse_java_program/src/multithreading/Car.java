@@ -5,7 +5,7 @@ public class Car extends Thread{
 			drive();
 		}
 		public void drive() {
-			System.out.println("Drive strts");
+			System.out.println("Drive starts");
 			for(int i=1;i<=10;i++) {
 				System.out.println("Car completes " + i +" KM");
 			}
