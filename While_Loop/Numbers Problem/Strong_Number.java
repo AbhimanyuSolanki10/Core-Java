@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-class Program15 {
+class Strong_Number {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

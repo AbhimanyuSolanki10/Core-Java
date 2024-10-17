@@ -4,7 +4,7 @@ class StringArray4
 	public static void main(String[] args)
 	{
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the Size: ");
+		System.out.println("ENter the Size: ");
 		int size=sc.nextInt();
 		sc.nextLine();
 		String[] a=new String[size];
